@@ -218,7 +218,7 @@ class FrameWork:
             '10.2.0': toolchains[3], '2020b': toolchains[3],
             '10.3.0': toolchains[4], '2021a': toolchains[4],
             '11.2.0': toolchains[5], '2021b': toolchains[5],
-            '2020a': toolchains[6],
+            '2020a': toolchains[6], '2023a': toolchains[6],
         }
         prefix = dep[0] + '-' + dep[1]
         tc_version = self.toolchain['version']
